@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-img {
+    height: 350px;
+    background: url("../img/fsS.jpg");
+    background-size:cover;
+}
+
+.full-name {
+    font-weight: normal;
+    font-size: 44px;
+}
+
+.main-header {
+    display: flex;
+}
+
+.main-header__description {
+    text-align: right;
+}
