@@ -1,11 +1,11 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main-img {
     height: 350px;
-    background: url("../img/fsS.jpg");
-    background-size:cover;
+    background: url("../img/Tech.jpg");
+    background-size: cover;
 }
 
 .full-name {
@@ -15,8 +15,33 @@ body {
 
 .main-header {
     display: flex;
+    justify-content: space-between;
 }
 
 .main-header__description {
     text-align: right;
+    padding-right: 10px;
+}
+
+.separator {
+    border-bottom: 3px solid #7d97ad;
+    margin: 0 0 25px;
+}
+
+.featured-work-list__item {
+    width: 33.33%;
+    margin-right: 35px;
+}
+
+.featured-work-list__item:last-of-type {
+    margin-right:0;
+}
+
+.featured-work-list__img img {
+    max-width: 100%;
+}
+
+.featured-work-list {
+    width: 100%;
+    display: flex;
 }
