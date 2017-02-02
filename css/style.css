@@ -34,7 +34,7 @@ body {
 }
 
 .featured-work-list__item:last-of-type {
-    margin-right:0;
+    margin-right: 0;
 }
 
 .featured-work-list__img img {
@@ -44,4 +44,14 @@ body {
 .featured-work-list {
     width: 100%;
     display: flex;
+}
+
+@media (max-width: 500px) {
+    .featured-work-list {
+        flex-direction: column;
+    }
+
+    .featured-work-list__item {
+        width: 100%;
+    }
 }
