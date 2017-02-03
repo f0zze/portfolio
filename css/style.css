@@ -42,6 +42,7 @@ img {
 .featured-work-list__item {
     width: 33.33%;
     margin-right: 35px;
+    margin-bottom: 15px
 }
 
 .featured-work-list__link,
@@ -75,12 +76,35 @@ img {
         flex-direction: column;
     }
 
+    .main-img {
+        display: none;
+    }
+
     .featured-work-list {
         flex-direction: column;
     }
 
     .featured-work-list__item {
         width: 100%;
+    }
+
+    .full-name {
+        font-size: 2em;
+    }
+
+    .profession {
+        text-align: center;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 800px){
+
+    .featured-work-list {
+        flex-direction: column;
+    }
+
+    .featured-work-list__item {
+        width: 50%;
     }
 
     .full-name {
