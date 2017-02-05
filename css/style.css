@@ -2,116 +2,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-img {
-    max-width: 100%;
-}
-
-.main-img {
-    height: 350px;
-    background: url("../img/Tech.jpg");
-    background-size: cover;
-}
-
-.main-header__logo {
-    width: 115px;
-    height: 115px;
-}
-
-.full-name {
-    font-size: 2.5em;
-    font-weight: 300;
-}
-
-.main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.logo {
+    width: 85px;
+    height: 85px;
 }
 
 .main-header__description {
     text-align: right;
-    padding-right: 10px;
-    color: #2d3c49;
 }
 
 .separator {
-    border-bottom: 3px solid #7d97ad;
-    margin: 0 0 25px;
+    border: 1px solid #2aabd2;
 }
 
-.featured-work-list__item {
-    width: 33.33%;
-    margin-right: 35px;
-    margin-bottom: 15px
-}
-
-.featured-work-list__link,
-.featured-work-list__title {
-    text-align: center;
-}
-
-.featured-work-list__title {
-    text-transform: uppercase;
-    padding: 20px;
-    font-size: 1.4em;
-}
-
-.featured-work-list__item:last-of-type {
-    margin-right: 0;
-}
-
-.featured-work__title {
-    color: #7d97ad;
-    font-size: 1.7em;
-    font-weight: 400;
-}
-
-.featured-work-list {
-    width: 100%;
-    display: flex;
-}
-
-@media (max-width: 500px) {
-    .main-header {
-        flex-direction: column;
-    }
-
-    .main-img {
-        display: none;
-    }
-
-    .featured-work-list {
-        flex-direction: column;
-    }
-
-    .featured-work-list__item {
-        width: 100%;
-    }
-
-    .full-name {
-        font-size: 2em;
-    }
-
-    .profession {
-        text-align: center;
-    }
-}
-
-@media (min-width: 501px) and (max-width: 800px){
-
-    .featured-work-list {
-        flex-direction: column;
-    }
-
-    .featured-work-list__item {
-        width: 50%;
-    }
-
-    .full-name {
-        font-size: 2em;
-    }
-
-    .profession {
-        text-align: center;
-    }
+.full-name {
+    font-weight: 300;
 }

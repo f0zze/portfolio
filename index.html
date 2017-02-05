@@ -1,59 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front-End Ninja</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" media="only screen and (max-width: 500px)" href="css/mobile.css"/>
+    <link rel="stylesheet" media="only screen and (min-width: 501px) and (max-width: 800px)" href="css/ipad.css"/>
 </head>
 <body>
-<header class="main-header">
-    <div class="main-header__logo">
-        <img src="./img/udacity.svg" alt="Udacity">
-    </div>
-    <div class="main-header__description">
-        <h1 class="full-name">Aigars Beinarovichs</h1>
-        <h4 class="profession">Full Stack Web Developer</h4>
+<header class="main-header container">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="logo">
+                <img class="img-fluid" src="./img/udacity.svg" alt="Udacity">
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="main-header__description">
+                <h1 class="full-name">Aigars Beinarovichs</h1>
+                <h4 class="profession">Full Stack Web Developer</h4>
+            </div>
+        </div>
     </div>
 </header>
-<div class="separator"></div>
-<section class="main-img"></section>
-<section class="featured-work">
-    <h3 class="featured-work__title">Featured Work</h3>
-    <div class="featured-work-list">
-        <div class="featured-work-list__item">
-            <div class="featured-work-list__img">
-                <img src="./img/movie-trailer.jpeg" alt="movie trailer project">
-            </div>
-            <div class="featured-work-list__title">Movie trailer</div>
-            <div class="featured-work-list__link">
-                https://github.com
+<div class="projects container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="separator"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="my-projects__title">Featured Work</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="project">
+                <div class="project__img">
+                    <img class="img-fluid" src="./img/movie-trailer.jpeg" alt="movie trailer project">
+                </div>
+                <div class="project__name">Movie trailer</div>
+                <div class="project_link">
+                    https://github.com
+                </div>
             </div>
         </div>
-
-        <div class="featured-work-list__item">
-            <div class="featured-work-list__img">
-                <img src="./img/movie-trailer.jpeg" alt="movie trailer project">
-            </div>
-            <div class="featured-work-list__title">Movie trailer</div>
-            <div class="featured-work-list__link">
-                https://github.com
+        <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="project">
+                <div class="project__img">
+                    <img class="img-fluid" src="./img/movie-trailer.jpeg" alt="movie trailer project">
+                </div>
+                <div class="project__name">Movie trailer</div>
+                <div class="project_link">
+                    https://github.com
+                </div>
             </div>
         </div>
-
-        <div class="featured-work-list__item">
-            <div class="featured-work-list__img">
-                <img src="./img/movie-trailer.jpeg" alt="movie trailer project">
-            </div>
-            <div class="featured-work-list__title">Movie trailer</div>
-            <div class="featured-work-list__link">
-                https://github.com
+        <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="project">
+                <div class="project__img">
+                    <img class="img-fluid" src="./img/movie-trailer.jpeg" alt="movie trailer project">
+                </div>
+                <div class="project__name">Movie trailer</div>
+                <div class="project_link">
+                    https://github.com
+                </div>
             </div>
         </div>
     </div>
-</section>
-<footer>
-</footer>
+</div>
+<div class="row">
+    <section class="main-img hidden-sm-down"></section>
+</div>
 </body>
 </html>
