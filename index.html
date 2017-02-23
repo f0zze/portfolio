@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Front-End Ninja</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front-End Ninja</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -12,69 +12,78 @@
 </head>
 <body>
 <header class="main-header container">
-    <div class="row">
-        <div class="col-md-2">
+    <div class="row align-content-md-center">
+        <div class="col-md-6">
             <div class="logo">
-                <img class="img-fluid" src="./img/udacity.svg" alt="Udacity">
+                <img class="img-fluid" src="img/udacity.svg" alt="Udacity">
             </div>
         </div>
-        <div class="col-md-10">
-            <div class="main-header__description">
-                <h1 class="full-name">Aigars Beinarovichs</h1>
-                <h4 class="profession">Full Stack Web Developer</h4>
+        <div class="col-md-6">
+            <div class="profile">
+                <h1 class="full-name">
+                    Aigars Beinarovichs
+                </h1>
+                <h3 class="job-description">
+                    Front-end ninja
+                </h3>
             </div>
         </div>
     </div>
+    <div class="section-separator"></div>
 </header>
-<div class="projects container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="separator"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <h3 class="my-projects__title">Featured Work</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6 col-lg-4 col-sm-12">
-            <div class="project">
-                <div class="project__img">
-                    <img class="img-fluid" src="./img/movie-trailer.jpeg" alt="movie trailer project">
-                </div>
-                <div class="project__name">Movie trailer</div>
-                <div class="project_link">
-                    https://github.com
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-sm-12">
-            <div class="project">
-                <div class="project__img">
-                    <img class="img-fluid" src="./img/movie-trailer.jpeg" alt="movie trailer project">
-                </div>
-                <div class="project__name">Movie trailer</div>
-                <div class="project_link">
-                    https://github.com
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-sm-12">
-            <div class="project">
-                <div class="project__img">
-                    <img class="img-fluid" src="./img/movie-trailer.jpeg" alt="movie trailer project">
-                </div>
-                <div class="project__name">Movie trailer</div>
-                <div class="project_link">
-                    https://github.com
-                </div>
-            </div>
-        </div>
-    </div>
+
+<div class="container">
+    <div class="main-img"></div>
 </div>
-<div class="row">
-    <section class="main-img hidden-sm-down"></section>
-</div>
+
+<section class="featured-work">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="feature-work__title">Featured Work</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="work">
+                    <div class="work__img">
+                        <img class="img-fluid" src="img/movie-trailer.jpeg" alt="Movie Trailer">
+                    </div>
+                    <div class="work__name">
+                        Movie Trailer Website
+                    </div>
+                    <div class="work__link">
+                        <a class="work__link" href="https://github.com/f0zze/ud1">https://github.com/f0zze/ud1</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <div class="work__img">
+                        <img class="img-fluid" src="img/movie-trailer.jpeg" alt="Movie Trailer">
+                    </div>
+                    <div class="work__name">
+                        Movie Trailer Website
+                    </div>
+                    <div class="work__link">
+                        <a class="work__link" href="https://github.com/f0zze/ud1">https://github.com/f0zze/ud1</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="work">
+                    <div class="work__img">
+                        <img class="img-fluid" src="img/movie-trailer.jpeg" alt="Movie Trailer">
+                    </div>
+                    <div class="work__name">
+                        Movie Trailer Website
+                    </div>
+                    <a class="work__link" href="https://github.com/f0zze/ud1">https://github.com/f0zze/ud1</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>

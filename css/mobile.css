@@ -1,23 +1,6 @@
 .main-img {
-    display: none;
-}
-
-.projects {
-    flex-direction: column;
-}
-
-.full-name {
-    font-size: 2em;
-    text-align: center;
-}
-
-.logo {
-    width: 65px;
-    height: 65px;
-}
-
-.profession {
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 300;
+    background: url("../img/mobile/main-img.jpg") no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
 }

@@ -1,20 +1,63 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #2d3c49
 }
 
 .logo {
-    width: 85px;
-    height: 85px;
+    width: 50px;
+    padding: 10px 0;
 }
 
-.main-header__description {
+/*Header Profile*/
+.profile {
     text-align: right;
 }
 
-.separator {
-    border: 1px solid #2aabd2;
+.profile > .full-name {
+    font-weight: 300;
+
 }
 
-.full-name {
+.profile > .job-description {
+    font-weight: 400;
+}
+
+.profile > .full-name,
+.profile > .job-description {
+    text-transform: uppercase;
+}
+
+.main-img {
+    background: url("../img/desktop/main-img.jpg") no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.feature-work__title {
     font-weight: 300;
+    color: #7d97ad
+}
+
+.featured-work {
+    margin-top: 25px;
+}
+
+.work__name {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+}
+
+.work .work__link {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    color: #2d3c49
+}
+
+.section-separator {
+    width: 100%;
+    border-bottom: 2px solid #7d97ad;
+    margin: 15px 0;
 }

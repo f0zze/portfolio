@@ -1,3 +1,6 @@
-body {
-    background-color: red;
+.main-img {
+    background: url("../img/ipad/main-img.jpg") no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
 }
