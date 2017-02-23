@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "ECHO is on.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f0zze/portfolio.git"
+  },
+  "author": "Aigars Beinarovics",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f0zze/portfolio/issues"
+  },
+  "homepage": "https://github.com/f0zze/portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-image-resize": "^0.12.0"
+  }
+}
